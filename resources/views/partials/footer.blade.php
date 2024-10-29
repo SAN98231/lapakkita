@@ -22,22 +22,20 @@
           <div class="col-md-6 col-lg-3">
             <h6>ABOUT US</h6>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-              doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-              doLorem ipsum dolor sit amet,
+              Lapak Kita is an online shopping platform that offers a wide range of high-quality products from trusted sellers. With a safe and easy shopping experience, Lapak Kita is here to meet your everyday needs, from fashion, electronics, and household essentials to beauty and health products. Discover exciting deals, premium products, and an enjoyable shopping experience only at Lapak Kita – the trusted online shopping solution for everyone!
             </p>
           </div>
 
           <div class="col-md-6 col-lg-3">
             <h6>CONTACT US</h6>
             <div class="info_link-box">
-              <a href="">
+              <a href="https://maps.app.goo.gl/83HMoYmXbyh986sh6" target="_blank">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span> Avon road 123 london Uk </span>
+                <span> Warkop Cyber Cijantung </span>
               </a>
               <a href="">
                 <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>+01 12345678901</span>
+                <span>+62 878-3466-6856</span>
               </a>
               <a href="">
                 <i class="fa fa-envelope" aria-hidden="true"></i>

@@ -2,7 +2,7 @@
   <!-- header section starts -->
   <header class="header_section">
     <nav class="navbar navbar-expand-lg custom_nav-container">
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="{{ url('/') }}">
         <span>LapakKita.com</span>
       </a>
       <button

@@ -4,9 +4,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ManageuserController;
+use App\Http\Controllers\ProductListController;
 use App\Http\Controllers\UserProductController;
 use App\Http\Controllers\AdminProductController;
-use App\Http\Controllers\ProductListController;
+use App\Http\Controllers\ListingSearchController;
 
 Route::get('/', function () {
     return view('pages.home');
@@ -67,3 +68,6 @@ Route::middleware(['auth'])->group(function () {
 
 // Product Listing
 Route::get('/listing', [ProductListController::class, 'index'])->name('products.listing');
+
+// Search
+Route::get('/search', [ListingSearchController::class, 'search'])->name('search');
