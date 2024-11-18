@@ -8,6 +8,7 @@ use App\Http\Controllers\ProductListController;
 use App\Http\Controllers\UserProductController;
 use App\Http\Controllers\AdminProductController;
 use App\Http\Controllers\ListingSearchController;
+use App\Http\Controllers\ProductDetailViewController;
 
 Route::get('/', function () {
     return view('pages.home');
@@ -71,3 +72,7 @@ Route::get('/listing', [ProductListController::class, 'index'])->name('products.
 
 // Search
 Route::get('/search', [ListingSearchController::class, 'search'])->name('search');
+
+// Product Detail view
+Route::get('product/{id}', [ProductDetailViewController::class, 'show'])->name('product.detail');
+
