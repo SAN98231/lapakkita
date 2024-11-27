@@ -24,7 +24,7 @@
                 {{-- <li><a href="#">Categories</a></li> --}}
                 <li><a href="{{ route('admin.products.manageproducts') }}">Manage All Products</a></li>
                 {{-- <li><a href="#">Settings</a></li> --}}
-                <li><a href="#">Reports</a></li>
+                {{-- <li><a href="#">Reports</a></li> --}}
             </ul>
         </div>
     

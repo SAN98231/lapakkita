@@ -116,7 +116,7 @@
             <div class="row">
                 <!-- Image Section -->
                 <div class="col-md-6">
-                    <a type="button" class="btn btn-warning" href="">Report</a>
+                    {{-- <a type="button" class="btn btn-warning" href="">Report</a> --}}
                     <div class="img-box">
                         <img 
                             src="{{ $product->image ? asset('storage/' . $product->image) : asset('images/placeholder.png') }}" 

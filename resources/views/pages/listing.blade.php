@@ -15,7 +15,7 @@
 
         <!-- Show "Search Results" only if a search query exists -->
         @if(request('query'))
-            <h2>Search Results for "{{ request('query') }}"</h2>
+            <h2>Search Results for "{{ e($query) }}"</h2>
         @endif
 
         <div class="product-listings">
